@@ -1,0 +1,9 @@
+{% extends "base.html.tera" %}
+{% block title %}User area{% endblock title %}
+
+{% block content %}
+<h1>Welcome, {{ username }}!</h1>
+<p>Hello there!</p>
+
+<small><a href="/logout">Log out</a>.</small>
+{% endblock content %}

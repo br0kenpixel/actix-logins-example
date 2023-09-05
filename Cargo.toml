@@ -1,0 +1,11 @@
+[package]
+name = "actix-logins-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-session = { version = "0.7.2", features = ["cookie-session"] }
+actix-web = "4.4.0"
+serde = { version = "1.0.188", features = ["derive"] }
+tera = { version = "1.19.1", default-features = false }
+tokio = { version = "1.32.0", features = ["macros", "rt-multi-thread"] }
